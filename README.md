@@ -13,3 +13,11 @@ Use prepared statements with JDBC to interact with the database securely.
 Implement input validation to remove malicious characters.
 5. MITM Protection (Security/MITMProtection.java)
 Implement digital signatures to ensure data integrity and authenticity.
+
+
+Tools and Libraries:
+Java Cryptography Extension (JCE): For implementing RSA and AES.
+BCrypt/SHA-256: For password hashing.
+JDBC: For secure database interactions, with prepared statements to prevent SQL injection.
+Log4j: For logging security events.
+JUnit: For writing unit tests for all major components.
